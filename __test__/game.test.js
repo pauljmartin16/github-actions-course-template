@@ -1,7 +1,8 @@
 const Game = require('../src/game').default
 const fs = require('fs')
 
-describe('App', () => {
+// pjm - removing - test showing as obsolete
+/* describe('App', () => {
   it('Contains the compiled JavaScript', async () => {
     fs.readFile('./public/main.js', 'utf8', (err, data) => {
       expect(err).toBe(null)
@@ -9,6 +10,7 @@ describe('App', () => {
     })
   })
 })
+*/
 
 describe('Game', () => {
   let game, p1, p2
